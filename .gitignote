@@ -6,10 +6,6 @@
 # Local .terraform directories
 **/.terraform/*
 
-# terragrunt cache directories
-**/.terragrunt-cache/*
-**/.terraform.lock.hcl
-
 # .tfstate files
 *.tfstate
 *.tfstate.*
@@ -81,3 +77,8 @@ Thumbs.db
 
 # SSH Keys
 *.pem
+
+### Terragrunt ###
+# terragrunt cache directories
+**/.terragrunt-cache/*
+**/.terraform.lock.hcl
